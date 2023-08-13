@@ -13,7 +13,7 @@ fetchNewAdvice();
 
 const renderAdvice = (adviceObj) => {
     const {id, advice} = adviceObj;
-    adviceId.textContent = `Advice ${id}`;
+    adviceId.textContent = `Advice #${id}`;
     actualAdvice.textContent = advice;
 }
 
